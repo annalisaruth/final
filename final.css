@@ -1,0 +1,81 @@
+#nav {
+	-webkit-text-stroke-width: 1.8px;
+  -webkit-text-stroke-color: black;
+}
+
+.hero{
+	width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(4k-wallpaper-alps-clouds-1482927.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Raleway', sans-serif;
+  color: white;
+   -webkit-text-stroke-width: 1.7px;
+   -webkit-text-stroke-color: black;
+}
+
+.essay {
+	text-indent: 35px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+.flow-text {
+	font-family:georgia;
+
+}
+/*.title {
+	text-align: center;
+	font-variant: small-caps;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 0px;
+	padding-top: 50px;
+}*/
+
+#image1{
+	 width:300px;
+	 height: 350px;
+	padding-left: 30px;
+	float:right;
+}
+
+#image2{
+	width:300px;
+	height:350px;
+	padding-right: 30px;
+	float:left;
+}
+#image3{
+	width:400px;
+	height:350px;
+	padding-left: 30px;
+	float:right;
+}
+.blockquote{
+	border-left-color: green;
+}
+.tab{
+	color: black;
+}
+
+@media(min-width:900px){p{font-size: 10pt;}}
+
+@media(max-width: 600px)
+	{body {background-color: #ECF0F1;}}
+
